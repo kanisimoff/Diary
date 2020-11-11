@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <AssemblyName>Diary.DbStore.MongoDb.Provider</AssemblyName>
+    <RootNamespace>Diary.DbStore.MongoDb</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.0" />
+    <PackageReference Include="MongoDB.Driver" Version="2.11.4" />
+    <PackageReference Include="PluralizeService.Core" Version="1.2.19339.3" />
+  </ItemGroup>
+
+</Project>
