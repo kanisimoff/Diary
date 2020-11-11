@@ -1,26 +1,16 @@
+using Diary.DbStore.MongoDb;
+using Diary.DbStore.MongoDb.Identity;
+using Diary.DbStore.MongoDb.Interfaces;
+using Diary.WebApp.Areas.Identity;
+using Diary.WebApp.Data;
 using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Identity.UI;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Diary.DbStore.MongoDb;
-using Diary.DbStore.MongoDb.Identity;
-using Diary.DbStore.MongoDb.Interfaces;
-using WebApp.Areas.Identity;
-using WebApp.Data;
-
-namespace WebApp
+namespace Diary.WebApp
 {
     public class Startup
     {

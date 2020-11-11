@@ -3,6 +3,8 @@
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
     <UserSecretsId>aspnet-WebApp-5BE173DB-B97C-4243-AC25-454B0432E84E</UserSecretsId>
+    <AssemblyName>Diary.WebApp</AssemblyName>
+    <RootNamespace>Diary.WebApp</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

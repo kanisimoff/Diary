@@ -1,6 +1,6 @@
 using System;
 
-namespace WebApp.Data
+namespace Diary.WebApp.Data
 {
     public class WeatherForecast
     {
